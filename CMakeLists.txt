@@ -10,6 +10,7 @@ add_subdirectory(usbbridge)
 add_subdirectory(syslog_server)
 # add_subdirectory(splash_gtk)
 # add_subdirectory(InjectionTest)
+add_subdirectory(debug)
 
 if (EXISTS "plugins/example_read_rc")
     add_subdirectory(plugins/example_read_rc)
